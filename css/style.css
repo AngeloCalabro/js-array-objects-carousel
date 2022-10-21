@@ -1,0 +1,20 @@
+.wrapper {
+    height: 500px;
+    width: 1200px
+}
+
+.debug {
+    border: 1px solid black;
+}
+
+.wrap-top {
+    height: 70%;
+}
+
+.wrap-bottom {
+    height: 30%;
+}
+
+.my-card {
+    width: calc(100% / 6);
+}
