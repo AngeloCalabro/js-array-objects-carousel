@@ -1,20 +1,73 @@
-.wrapper {
-    height: 500px;
-    width: 1200px
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.debug {
-    border: 1px solid black;
+img {
+    max-width: 100%;
 }
 
-.wrap-top {
-    height: 70%;
+.my-container {
+    max-width: 1200px;
+    margin: 50px auto;
 }
 
-.wrap-bottom {
-    height: 30%;
+.my-flex {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
 }
 
-.my-card {
-    width: calc(100% / 6);
+/* CAROSELLO */
+.view-image {
+    position: relative;
+    padding: 0.25rem;
+}
+
+.title-image {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    text-align: right;
+    color: #fff;
+    text-shadow: 5px 0px 10px rgb(0, 0, 0);
+}
+
+.description-image {
+    font-size: 20px;
+}
+
+.my-carousel-image {
+    padding: 0.25rem;
+}
+
+#previous {
+    position: absolute;
+    bottom: calc(75px - 0.25rem);
+    left: 0.5%;
+    transform: translateY(25%);
+}
+
+#next {
+    position: absolute;
+    bottom: calc(75px - 0.25rem);
+    right: 0.5%;
+    transform: translateY(25%);
+}
+
+
+.small-dimension {
+    width: 250px;
+    height: 150px;
+}
+
+.big-dimension {
+    height: 700px;
+    width: 1200px;
+}
+
+.my-opacity {
+    opacity: 0.5;
 }
